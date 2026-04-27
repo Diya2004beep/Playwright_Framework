@@ -1,0 +1,24 @@
+{
+  "name": "sharaf-dg-automation-using-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --config=playwright.config.js",
+    "test:headed": "playwright test --config=playwright.config.js --headed",
+    "test:ui": "playwright test --config=playwright.config.js --ui",
+    "test:debug": "playwright test --config=playwright.config.js --debug",
+    "test:report": "playwright show-report reports/html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright Page Object Model based test automation framework",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "dotenv": "^16.6.1"
+  },
+  "dependencies": {
+    "imap-simple": "^5.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
+
